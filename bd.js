@@ -86,5 +86,14 @@
      "areaId": 3,
      "userId": 837
     }
+  ],
+  "usarios": [
+    {
+  	 "id": 1,
+	 "nome": "Thiago",
+	 "Idade": 25,
+	 "vezesAcamp": 6,
+	 "Descrição": "Amo muito acampar"
+    }
   ]
 }
