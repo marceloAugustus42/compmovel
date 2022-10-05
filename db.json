@@ -6,8 +6,8 @@
 	  "avalicao" : 3.5,
 	  "idClass": 2,
 	  "tipoDeLocal": "Aberto",
-	  "Latitude":-233.576.875,
-	  "Longitude":764.394.902
+	  "Latitude":"-233.576.875",
+	  "Longitude":"764.394.902"
 	}, 
 	{ 
 	  "id": 2,
@@ -15,8 +15,8 @@
 	  "avaliacao" : 5,
 	  "idClass": 5,
 	  "tipoDeLocal": "Aberto",
-	  "Latitude":783.326.221,
-	  "Longitude":123.908.324
+	  "Latitude":"783.326.221",
+	  "Longitude":"123.908.324"
 	}, 
 	{ 
 	  "id": 3,
@@ -24,8 +24,8 @@
 	  "avaliacao" : 5,
 	  "idClass": 2,
 	  "tipoDeLocal": "Fechado",
-	  "Latitude":740.002.754,
-	  "Longitude":-472.994.122
+	  "Latitude":"740.002.754",
+	  "Longitude":"-472.994.122"
 	} 
   ],
   "classes": [
