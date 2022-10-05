@@ -10,7 +10,7 @@
 	  "Longitude" : "764.394.902"
 	}, 
 	{ 
-	  "id": 2,
+	  "id" : 2,
 	  "nome" : "Riacho da Paz",
 	  "avaliacao" : 5,
 	  "idClass" : 5,
