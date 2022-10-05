@@ -5,7 +5,7 @@
 	  "nome": "Montanha do pinheiro",
 	  "avalicao" : 3.5,
 	  "idClass": 2,
-	  "tipoDeLocal": Aberto,
+	  "tipoDeLocal": "Aberto",
 	  "Latitude":-233.576.875,
 	  "Longitude":764.394.902
 	}, 
@@ -14,7 +14,7 @@
 	  "nome": "Riacho da Paz",
 	  "avaliacao" : 5,
 	  "idClass": 5,
-	  "tipoDeLocal": Aberto,
+	  "tipoDeLocal": "Aberto",
 	  "Latitude":783.326.221,
 	  "Longitude":123.908.324
 	}, 
@@ -23,7 +23,7 @@
 	  "nome": "Facão",
 	  "avaliacao" : 5,
 	  "idClass": 2,
-	  "tipoDeLocal": Fechado,
+	  "tipoDeLocal": "Fechado",
 	  "Latitude":740.002.754,
 	  "Longitude":-472.994.122
 	} 
