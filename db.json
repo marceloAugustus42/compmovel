@@ -20,7 +20,7 @@
 	}, 
 	{ 
 	  "id" : 3,
-	  "nome" : "Facão",
+	  "nome" : "Facao",
 	  "avaliacao" : 5,
 	  "idClass" : 2,
 	  "tipoDeLocal" : "Fechado",
