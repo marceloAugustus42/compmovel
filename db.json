@@ -30,23 +30,23 @@
   ],
   "classes" : [
   	{
-	 "id": 1,
+	 "id" : 1,
 	 "tipo" : "Plana"
 	},
 	{
-	 "id": 2,
+	 "id" : 2,
 	 "tipo" : "Montanhosa"
 	},
 	{
-	 "id": 3,
+	 "id" : 3,
 	 "tipo" : "Beira de rio"
 	},
 	{
-	 "id": 4,
+	 "id" : 4,
 	 "tipo" : "Desertica"
 	},
 	{
-	 "id": 5,
+	 "id" : 5,
 	 "tipo" : "Beira de riacho"
 	}
   ],
