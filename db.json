@@ -26,6 +26,33 @@
 	  "tipoDeLocal" : "Fechado",
 	  "Latitude" : "740.002.754",
 	  "Longitude" : "-472.994.122"
+	},
+    { 
+	  "id" : 4,
+	  "nome" : "Pico Congelado",
+	  "avaliacao" : 1,
+	  "idClass" : 2,
+	  "tipoDeLocal" : "Aberto",
+	  "Latitude" : "432.881.094",
+	  "Longitude" : "214.453.729"
+	},
+    { 
+	  "id" : 5,
+	  "nome" : "Selva Selvagem",
+	  "avaliacao" : 2,
+	  "idClass" : 6,
+	  "tipoDeLocal" : "Fechado",
+	  "Latitude" : "387.623.122",
+	  "Longitude" : "321.809.423"
+	},
+    { 
+	  "id" : 6,
+	  "nome" : "Rio Barroso",
+	  "avaliacao" : 3,
+	  "idClass" : 3,
+	  "tipoDeLocal" : "Aberto",
+	  "Latitude" : "783.326.221",
+	  "Longitude" : "123.908.324"
 	}
   ],
   "classes" : [
@@ -48,7 +75,11 @@
 	{
 	 "id" : 5,
 	 "tipo" : "Beira de riacho"
-	}
+	},
+    {
+     "id" : 6,
+     "tipo" : "Florestal"
+    }
   ],
   "comentarios" : [
     {
@@ -85,6 +116,55 @@
      "avalicao" : 5,
      "areaId" : 3,
      "userId" : 2
+    },
+    {
+    "id" : 6,
+    "body" : "melhor levar um casaco",
+    "avalicao" : 2,
+    "areaId" : 4,
+    "userId" : 2
+    },
+    {
+    "id" : 7,
+    "body" : "nao da para acender uma fogueira",
+    "avalicao" : 1,
+    "areaId" : 4,
+    "userId" : 2
+    },
+    {
+    "id" : 8,
+    "body" : "lugar pavoroso",
+    "avalicao" : 1,
+    "areaId" : 5,
+    "userId" : 2
+    },
+    {
+    "id" : 9,
+    "body" : "apenas para os mais experientes",
+    "avalicao" : 4,
+    "areaId" : 5,
+    "userId" : 2
+    },
+    {
+    "id" : 10,
+    "body" : "lugar feio e fedido",
+    "avalicao" : 1,
+    "areaId" : 6,
+    "userId" : 2
+    },
+    {
+    "id" : 11,
+    "body" : "bom para a pele",
+    "avalicao" : 5,
+    "areaId" : 6,
+    "userId" : 2
+    },
+    {
+    "id" : 12,
+    "body" : "muitas arvores frutiferas",
+    "avalicao" : 5,
+    "areaId" : 3,
+    "userId" : 2
     }
   ],
   "usarios" : [
