@@ -1,0 +1,29 @@
+db.run(
+      "CREATE TABLE Usuario (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, email TEXT, phone INTEGER, idade INTEGER, vezesAcampadas INTEGER, descricao TEXT)"
+    );
+    console.log("New table Users created!");
+    db.run(
+      "CREATE TABLE Areas (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, avaliação INTEGER, idClass INTEGER, tipoDeLocal TEXT, latitude TEXT, longitude TEXT, idUsuario INTEGER)"
+    );
+    console.log("New table Areas created!");
+    db.run(
+      "CREATE TABLE Classes (id INTEGER PRIMARY KEY AUTOINCREMENT, tipo TEXT) "
+    );
+    console.log("New table Classe created!");
+    db.run(
+      "CREATE TABLE Comentarios (id INTEGER PRIMARY KEY AUTOINCREMENT, body TEXT, avaliacao INTEGER, areaId INTEGER, userId INTEGER)"
+    );
+    console.log("New table Users created!");
+    
+    db.run(
+        'INSERT INTO  Usuario(name, email, telefone, idade, vezesAcampadas, descricao) VALUES ("Thiago", "thiago@email.com", 99998811, 25, 6, "Amo muito acampar"), ("Joao", "joao@email.com", 99998222, 25, 1, "Gosto do ar fresco")'
+      );
+      db.run(
+        'INSERT INTO Areas(name, avaliação, idClass, tipoDeLocal, laitude, longitude, idUsuario) VALUES ("Montanha do pinheiro", 3, 2, "Aberto", "-233.576.875", "764.394.902", 1), ("Riacho da Paz", 5, 5, "Aberto", "783.326.221", "123.908.324", 1)'
+      ); 
+      db.run(
+        'INSERT INTO Classes(tipo) VALUES ("Planice"), ("Montanhosa"), ("Beira de rio"), ("Desertica"), ("Beira de riacho"), ("Florestal")'
+      ); 
+      db.run(
+        'INSERT INTO Comentarios(body, avaliacao, areaId, UserId) VALUES ("venta muito", 3, 1, 1), ("bem gelado", 4, 1, 1,), ("muito tranquilo", 5, 2, 2)'
+      ); 
